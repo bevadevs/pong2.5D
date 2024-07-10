@@ -7,40 +7,16 @@
       "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\assets\\scripts\\addball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\addball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|c:\\users\\barbara\\documents\\unityproyects\\pong3d\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\assets\\scripts\\sizeup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sizeup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\assets\\scripts\\sizedown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sizedown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\assets\\scripts\\speedchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\speedchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\assets\\scripts\\iaplayer02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|c:\\users\\barbara\\documents\\unityproyects\\pong3d\\assets\\scripts\\iaplayer02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iaplayer02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\assets\\scripts\\ballmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ballmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|c:\\users\\barbara\\documents\\unityproyects\\pong3d\\assets\\scripts\\speedchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\speedchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\assets\\scripts\\soundsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\assets\\scripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|c:\\users\\barbara\\documents\\unityproyects\\pong3d\\assets\\scripts\\addball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\addball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -60,120 +36,51 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameOverScreen.cs",
               "ToolTip": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\GameOverScreen.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameOverScreen.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T17:00:21.208Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IAPlayer02.cs",
-              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\IAPlayer02.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\IAPlayer02.cs",
-              "ToolTip": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\IAPlayer02.cs",
-              "RelativeToolTip": "Assets\\Scripts\\IAPlayer02.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T15:35:29.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddBall.cs",
-              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\AddBall.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AddBall.cs",
-              "ToolTip": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\AddBall.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AddBall.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T10:42:43.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "SpeedChange.cs",
               "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\SpeedChange.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpeedChange.cs",
               "ToolTip": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\SpeedChange.cs",
               "RelativeToolTip": "Assets\\Scripts\\SpeedChange.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBIAAAAcAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwDgAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T10:14:57.609Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SizeDown.cs",
-              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\SizeDown.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SizeDown.cs",
-              "ToolTip": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\SizeDown.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SizeDown.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T10:12:59.21Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SizeUp.cs",
-              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\SizeUp.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SizeUp.cs",
-              "ToolTip": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\SizeUp.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SizeUp.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T18:00:49.538Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BallMovement.cs",
-              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\BallMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BallMovement.cs",
-              "ToolTip": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\BallMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BallMovement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T18:07:34.045Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ScoreManager.cs",
-              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\ScoreManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
-              "ToolTip": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\ScoreManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScoreManager.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCkAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T18:09:08.114Z",
+              "WhenOpened": "2024-04-30T10:14:57.609Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SoundsManager.cs",
-              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\SoundsManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundsManager.cs",
-              "ToolTip": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\SoundsManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SoundsManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
+              "DocumentIndex": 1,
+              "Title": "IAPlayer02.cs",
+              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\IAPlayer02.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IAPlayer02.cs",
+              "ToolTip": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\IAPlayer02.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IAPlayer02.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBsAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T17:11:09.479Z"
+              "WhenOpened": "2024-07-10T11:44:28.548Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MusicManager.cs",
-              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\MusicManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MusicManager.cs",
-              "ToolTip": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\MusicManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MusicManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAwAAAA",
+              "DocumentIndex": 3,
+              "Title": "AddBall.cs",
+              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\AddBall.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AddBall.cs",
+              "ToolTip": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\AddBall.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AddBall.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T15:20:45.253Z"
+              "WhenOpened": "2024-07-10T10:52:07.037Z",
+              "EditorCaption": ""
             }
           ]
         }

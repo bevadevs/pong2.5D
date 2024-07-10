@@ -364,7 +364,7 @@ GameObject:
   - component: {fileID: 229744746}
   m_Layer: 0
   m_Name: Player01
-  m_TagString: Player
+  m_TagString: Player01
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2002,7 +2002,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbe0cfcca82451941a288a51f740372a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClip: {fileID: 0}
   audioSource: {fileID: 963194230}
 --- !u!82 &963194230
 AudioSource:
@@ -2113,6 +2112,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverScreen: {fileID: 993242651}
+  soundsManager: {fileID: 0}
+  audioClip: {fileID: 0}
+  menuMusic: {fileID: 0}
   scoreBoardP01: {fileID: 541963226}
   scoreBoardP02: {fileID: 946382093}
 --- !u!1 &992055454
@@ -2337,6 +2339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 685baea606c28974b88e49dcc35c798c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musicManager: {fileID: 963194229}
   winnerText: {fileID: 1311354334}
 --- !u!1 &1017008561
 GameObject:
@@ -2350,7 +2353,7 @@ GameObject:
   - component: {fileID: 1017008562}
   m_Layer: 0
   m_Name: GoalArea02
-  m_TagString: Player02
+  m_TagString: GoalArea02
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2403,7 +2406,7 @@ GameObject:
   - component: {fileID: 1063882477}
   m_Layer: 0
   m_Name: GoalArea01
-  m_TagString: Player01
+  m_TagString: GoalArea01
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2997,7 +3000,7 @@ GameObject:
   - component: {fileID: 1846435149}
   m_Layer: 0
   m_Name: Player02
-  m_TagString: Player
+  m_TagString: Player02
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -2,14 +2,10 @@ using UnityEngine;
 
 public class speedChange : MonoBehaviour
 {
-    GameObject Player01;
-    GameObject Player02;
     GameObject[] balls;
 
     private void Awake()
     {
-        Player01 = GameObject.FindGameObjectWithTag("Player01");
-        Player02 = GameObject.FindGameObjectWithTag("Player02");
         balls = IAPlayer02.balls;
     }
 
@@ -24,36 +20,40 @@ public class speedChange : MonoBehaviour
     {
         // Accedemos a cuál es el último jugador que ha tocado la bola
         string lastCollisionTag = BallMovement.lastCollision;
-
-        if (lastCollisionTag == "Player01")
+        int ballListSize = 0;
+        foreach (GameObject ball in balls)
         {
-            foreach (GameObject ball in balls)
+            Rigidbody ballRigidbody = ball.GetComponent<Rigidbody>();
+
+            ballListSize++;
+
+            Vector3 velocity = ballRigidbody.velocity;
+
+            if (lastCollisionTag == "Player01")
             {
                 // Si la bola va hacia la derecha, la aceleramos, y si va hacia la izquierda, la ralentizamos
-                if (ball.GetComponent<Rigidbody>().velocity.x > 0)
+                if (velocity.x > 0)
                 {
-                    ball.GetComponent<Rigidbody>().velocity *= 2;
+                    velocity *= 2.0f;
                 }
-                else if (ball.GetComponent<Rigidbody>().velocity.x < 0)
+                else if (velocity.x < 0)
                 {
-                    ball.GetComponent<Rigidbody>().velocity /= 2;
+                    velocity *= 0.5f;
                 }
             }
-        }
-        else if (lastCollisionTag == "Player02")
-        {
-            foreach (GameObject ball in balls)
+            else if (lastCollisionTag == "Player02")
             {
                 // Si la bola va hacia la izquierda, la aceleramos, y si va hacia la derecha, la ralentizamos
-                if (ball.GetComponent<Rigidbody>().velocity.x > 0)
+                if (velocity.x > 0)
                 {
-                    ball.GetComponent<Rigidbody>().velocity /= 2;
+                    velocity *= 0.5f;
                 }
-                else if (ball.GetComponent<Rigidbody>().velocity.x < 0)
+                else if (velocity.x < 0)
                 {
-                    ball.GetComponent<Rigidbody>().velocity *= 2;
+                    velocity *= 2.0f;
                 }
             }
         }
+        Debug.Log("From SpeedChange: " + ballListSize);
     }
 }

@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 229744746}
   m_Layer: 0
   m_Name: Player01
-  m_TagString: Player
+  m_TagString: Player01
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1230,6 +1230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 685baea606c28974b88e49dcc35c798c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musicManager: {fileID: 963194229}
   winnerText: {fileID: 1385156055}
 --- !u!114 &739919611
 MonoBehaviour:
@@ -2124,7 +2125,7 @@ GameObject:
   - component: {fileID: 1017008562}
   m_Layer: 0
   m_Name: GoalArea02
-  m_TagString: Player02
+  m_TagString: GoalArea02
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2177,7 +2178,7 @@ GameObject:
   - component: {fileID: 1063882477}
   m_Layer: 0
   m_Name: GoalArea01
-  m_TagString: Player01
+  m_TagString: GoalArea01
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2631,7 +2632,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1255236400}
         m_TargetAssemblyTypeName: MenuButtons, Assembly-CSharp
-        m_MethodName: LoadPvP
+        m_MethodName: LoadPvE
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3042,7 +3043,7 @@ GameObject:
   - component: {fileID: 1846435147}
   m_Layer: 0
   m_Name: Player02
-  m_TagString: Player
+  m_TagString: Player02
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

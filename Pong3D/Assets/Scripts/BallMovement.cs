@@ -19,7 +19,7 @@ public class BallMovement : MonoBehaviour
 
     private void Awake()
     {
-        scoreManager = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ScoreManager>();
+        scoreManager = FindObjectOfType<ScoreManager>();
     }
 
     void Start()
@@ -39,23 +39,28 @@ public class BallMovement : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
         rb.velocity = new Vector3(0, 0, 0);
 
-        yield return new WaitForSeconds(2.7f);
+        yield return new WaitForSeconds(0.7f);
 
         impactsCounter = 0;
         isTimeToServe = true;
 
-        if (tag == "Player01")
+        if (tag == "GoalArea01")
         {
             gameObject.transform.position = new Vector3(-7, 0, 0);
             // Solo direcciones hacia la derecha
             direction = initialDirections[Random.Range(0, 4)];
         }
-        else if (tag == "Player02")
+        else if (tag == "GoalArea02")
         {
             gameObject.transform.position = new Vector3(7, 0, 0);
             // Solo direcciones hacia la izquierda
             direction = initialDirections[Random.Range(4, 8)];
         }
+
+        // Metemos la nueva pelota en el array de pelotas de las que tiene que estar pendiende la IA
+        // NO ESTÁ FUNCIONANDO
+        IAPlayer02.balls = GameObject.FindGameObjectsWithTag("Ball");
+
         yield return direction;
     }
 
@@ -69,7 +74,7 @@ public class BallMovement : MonoBehaviour
         direction = Vector3.Reflect(direction, collisionNormal);
 
         // Cada 4 toques que se le den a la pelota, aumentamos su velocidad
-        if (collision.collider.tag == "Player")
+        if ((collision.collider.tag == "Player01") || (collision.collider.tag == "Player02"))
         {
             impactsCounter++;
         }
@@ -84,8 +89,11 @@ public class BallMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider trigger)
     {
-        scoreManager.AddScore(trigger.tag);
-        StartCoroutine(Respawn(trigger.tag));
+        if ((trigger.tag == "GoalArea01") || (trigger.tag == "GoalArea02"))
+        {
+            scoreManager.AddScore(trigger.tag);
+            StartCoroutine(Respawn(trigger.tag));
+        }
     }
 
     private void Serve()

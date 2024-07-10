@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class sizeUp : MonoBehaviour
 {
-    // Accedemos a cuál es el último jugador que ha tocado la bola
-    string lastCollisionTag = BallMovement.lastCollision;
-
     [SerializeField] GameObject Player01;
     [SerializeField] GameObject Player02;
 
@@ -16,8 +13,11 @@ public class sizeUp : MonoBehaviour
         Player02 = GameObject.FindGameObjectWithTag("Player02");
     }
 
-    private void OnTriggerEnter(Collider c)
+    private void OnTriggerEnter()
     {
+        // Accedemos a cuál es el último jugador que ha tocado la bola
+        string lastCollisionTag = BallMovement.lastCollision;
+
         if (lastCollisionTag == "Player01")
         {
             Player01.transform.localScale += new Vector3(0, 1, 0);

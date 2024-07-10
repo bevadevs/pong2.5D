@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class SoundsManager : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class SoundsManager : MonoBehaviour
 
     private void Awake()
     {
-        musicManager = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<MusicManager>();
+        musicManager = FindObjectOfType<MusicManager>();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -33,7 +34,6 @@ public class SoundsManager : MonoBehaviour
         StartCoroutine(musicManager.volumeBackToNormal(clipLength));
     }
 
-    // Revisar, no hace lo que quiero
     public void PlaySFXAndChangeBGMusic(AudioClip SFXClip, AudioClip newBGClip)
     {
         audioSource.Stop();

@@ -7,6 +7,8 @@ TagManager:
   - Ball
   - Player01
   - Player02
+  - GoalArea01
+  - GoalArea02
   layers:
   - Default
   - TransparentFX

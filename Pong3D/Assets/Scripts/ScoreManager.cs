@@ -13,8 +13,7 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] TMP_Text scoreBoardP02;
     int scoreP01 = 0;
     int scoreP02 = 0;
-    // CHANGE AFTER TESTING
-    int maxScore = 1;
+    int maxScore = 3;
 
     private void Start()
     {
@@ -22,9 +21,9 @@ public class ScoreManager : MonoBehaviour
         UpdateScore(scoreBoardP02, scoreP02);
     }
 
-    public void AddScore(string playerTag)
+    public void AddScore(string areaTag)
     {
-        if (playerTag == "Player01")
+        if (areaTag == "GoalArea01")
         {
             scoreP02++;
             UpdateScore(scoreBoardP02, scoreP02);
@@ -34,13 +33,12 @@ public class ScoreManager : MonoBehaviour
                 gameOverScreen.GameOver("Player2");
             }
         }
-        else if (playerTag == "Player02")
+        else if (areaTag == "GoalArea02")
         {
             scoreP01++;
             UpdateScore(scoreBoardP01, scoreP01);
             if (scoreP01 == maxScore)
             {
-                //soundsManager.PlaySoundEffect(audioClip);
                 soundsManager.PlaySFXAndChangeBGMusic(audioClip, menuMusic);
                 gameOverScreen.GameOver("Player1");
             }
