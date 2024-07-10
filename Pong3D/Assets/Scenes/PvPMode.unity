@@ -620,6 +620,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball
       objectReference: {fileID: 0}
+    - target: {fileID: 1832058218744324180, guid: 4ae6c447885a9644baa017c4bbc78758, type: 3}
+      propertyPath: musicManager
+      value: 
+      objectReference: {fileID: 963194229}
     - target: {fileID: 2053753284215596429, guid: 4ae6c447885a9644baa017c4bbc78758, type: 3}
       propertyPath: musicManager
       value: 
@@ -2112,9 +2116,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverScreen: {fileID: 993242651}
-  soundsManager: {fileID: 0}
-  audioClip: {fileID: 0}
-  menuMusic: {fileID: 0}
+  soundsManager: {fileID: 1890427218}
+  audioClip: {fileID: 8300000, guid: c731bcd9ed68adb4ba2eccc068c478e8, type: 3}
+  menuMusic: {fileID: 8300000, guid: 632af5b68dcc6cc44b88763d12f7013a, type: 3}
   scoreBoardP01: {fileID: 541963226}
   scoreBoardP02: {fileID: 946382093}
 --- !u!1 &992055454
@@ -2848,6 +2852,54 @@ Transform:
   - {fileID: 815149147}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1566969786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1566969788}
+  - component: {fileID: 1566969787}
+  m_Layer: 0
+  m_Name: PowerUpSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1566969787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566969786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed9136d4d85b91f429a5359be9654e42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sizeUp: {fileID: 5311171349682489113, guid: 3d0d8ba13057e224086af8c52226b067, type: 3}
+  sizeDown: {fileID: 4458226010421008404, guid: b441fd9fc2ad4124e9cfbd513c0f616e, type: 3}
+  speedChange: {fileID: 1312378590064203902, guid: 5ba0e03e89702744c914ada23ec6f444, type: 3}
+  addBall: {fileID: 3877347787818906672, guid: 73bcaf24af7e83f45abdb8455fee29da, type: 3}
+--- !u!4 &1566969788
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566969786}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1606197448
 GameObject:
   m_ObjectHideFlags: 0
@@ -3244,6 +3296,17 @@ MonoBehaviour:
   direction: 0
   speed: 3
   rb: {fileID: 1846435140}
+--- !u!114 &1890427218 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1832058218744324180, guid: 4ae6c447885a9644baa017c4bbc78758, type: 3}
+  m_PrefabInstance: {fileID: 232531124}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bbc91e9cacd3a44da9db14e0e09cc4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -3260,4 +3323,5 @@ SceneRoots:
   - {fileID: 229744743}
   - {fileID: 1846435144}
   - {fileID: 232531124}
+  - {fileID: 1566969788}
   - {fileID: 993242650}

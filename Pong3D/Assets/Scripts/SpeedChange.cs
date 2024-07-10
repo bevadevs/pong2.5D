@@ -20,12 +20,9 @@ public class speedChange : MonoBehaviour
     {
         // Accedemos a cuál es el último jugador que ha tocado la bola
         string lastCollisionTag = BallMovement.lastCollision;
-        int ballListSize = 0;
         foreach (GameObject ball in balls)
         {
             Rigidbody ballRigidbody = ball.GetComponent<Rigidbody>();
-
-            ballListSize++;
 
             Vector3 velocity = ballRigidbody.velocity;
 
@@ -54,6 +51,5 @@ public class speedChange : MonoBehaviour
                 }
             }
         }
-        Debug.Log("From SpeedChange: " + ballListSize);
     }
 }

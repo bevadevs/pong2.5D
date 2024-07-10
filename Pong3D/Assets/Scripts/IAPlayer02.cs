@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 
@@ -22,17 +20,14 @@ public class IAPlayer02 : MonoBehaviour
 
     void Move()
     {
-        int ballListSize = 0;
         foreach (GameObject ball in balls)
         {
-            ballListSize++;
             // Comprobamos qué bola está más cerca para seguir su movimiento
             if (Vector3.Distance(ball.transform.position, transform.position) < Vector3.Distance(balls[0].transform.position, transform.position))
             {
                 balls[0] = ball;
             }
         }
-        Debug.Log("From IAPlayer02: " + ballListSize);
 
         if (balls[0].transform.position.y > transform.position.y)
         {

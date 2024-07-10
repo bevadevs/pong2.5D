@@ -30,7 +30,7 @@ public class ScoreManager : MonoBehaviour
             if (scoreP02 == maxScore)
             {
                 soundsManager.PlaySFXAndChangeBGMusic(audioClip, menuMusic);
-                gameOverScreen.GameOver("Player2");
+                gameOverScreen.GameOver("Red Player");
             }
         }
         else if (areaTag == "GoalArea02")
@@ -40,7 +40,7 @@ public class ScoreManager : MonoBehaviour
             if (scoreP01 == maxScore)
             {
                 soundsManager.PlaySFXAndChangeBGMusic(audioClip, menuMusic);
-                gameOverScreen.GameOver("Player1");
+                gameOverScreen.GameOver("Blue Player");
             }
         }
     }

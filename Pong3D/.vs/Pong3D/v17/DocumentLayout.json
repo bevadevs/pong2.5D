@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\",
+  "WorkspaceRootPath": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\assets\\scripts\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|c:\\users\\barbara\\documents\\github\\pong2.5d\\pong3d\\assets\\scripts\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|c:\\users\\barbara\\documents\\unityproyects\\pong3d\\assets\\scripts\\iaplayer02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iaplayer02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|c:\\users\\barbara\\documents\\unityproyects\\pong3d\\assets\\scripts\\speedchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\assets\\scripts\\speedchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\speedchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|c:\\users\\barbara\\documents\\unityproyects\\pong3d\\assets\\scripts\\addball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|c:\\users\\barbara\\documents\\github\\pong2.5d\\pong3d\\assets\\scripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|c:\\users\\barbara\\documents\\github\\pong2.5d\\pong3d\\assets\\scripts\\menubuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menubuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\assets\\scripts\\addball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\addball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\assets\\scripts\\iaplayer02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iaplayer02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,11 +40,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "GameOverScreen.cs",
-              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\GameOverScreen.cs",
+              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\GameOverScreen.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameOverScreen.cs",
-              "ToolTip": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\GameOverScreen.cs",
+              "ToolTip": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\GameOverScreen.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameOverScreen.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T17:00:21.208Z",
               "IsPinned": true,
@@ -44,13 +52,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "SpeedChange.cs",
-              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\SpeedChange.cs",
+              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\SpeedChange.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpeedChange.cs",
-              "ToolTip": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\SpeedChange.cs",
+              "ToolTip": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\SpeedChange.cs",
               "RelativeToolTip": "Assets\\Scripts\\SpeedChange.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAwwDgAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T10:14:57.609Z",
               "IsPinned": true,
@@ -58,28 +66,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IAPlayer02.cs",
-              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\IAPlayer02.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\IAPlayer02.cs",
-              "ToolTip": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\IAPlayer02.cs",
-              "RelativeToolTip": "Assets\\Scripts\\IAPlayer02.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwBsAAAAbAAAA",
+              "DocumentIndex": 2,
+              "Title": "MusicManager.cs",
+              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\MusicManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MusicManager.cs",
+              "ToolTip": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\MusicManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MusicManager.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T11:44:28.548Z",
+              "WhenOpened": "2024-07-10T16:51:08.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "MenuButtons.cs",
+              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\MenuButtons.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuButtons.cs",
+              "ToolTip": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\MenuButtons.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuButtons.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T16:25:45.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AddBall.cs",
-              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\AddBall.cs",
+              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\AddBall.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AddBall.cs",
-              "ToolTip": "C:\\Users\\Barbara\\Documents\\UnityProyects\\Pong3D\\Assets\\Scripts\\AddBall.cs",
+              "ToolTip": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\AddBall.cs",
               "RelativeToolTip": "Assets\\Scripts\\AddBall.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T10:52:07.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAPlayer02.cs",
+              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\IAPlayer02.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IAPlayer02.cs",
+              "ToolTip": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\IAPlayer02.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IAPlayer02.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T11:44:28.548Z",
               "EditorCaption": ""
             }
           ]
