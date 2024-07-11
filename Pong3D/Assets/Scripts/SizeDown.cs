@@ -6,11 +6,16 @@ public class sizeDown : MonoBehaviour
 {
     [SerializeField] GameObject Player01;
     [SerializeField] GameObject Player02;
+    [SerializeField] SFXComponent sfxComponent;
+    [SerializeField] AudioClip clip;
 
     private void Awake()
     {
         Player01 = GameObject.FindGameObjectWithTag("Player01");
         Player02 = GameObject.FindGameObjectWithTag("Player02");
+
+        // Quizás deba cambiarlo por que sea específicamente el componente del Spawner
+        sfxComponent = FindObjectOfType<SFXComponent>();
     }
     
     private void OnTriggerEnter(Collider collider)
@@ -28,6 +33,9 @@ public class sizeDown : MonoBehaviour
         {
             Player01.transform.localScale -= new Vector3(0, 1, 0);
         }
+
+        // Llamamos a la función para reproducir el sonido de recogida de power up
+        sfxComponent.PlaySoundEffect(clip);
 
         Destroy(gameObject);
     }

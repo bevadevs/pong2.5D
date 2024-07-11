@@ -119,6 +119,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87ce71f949744e84398cd13b8dce0902, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sfxComponent: {fileID: 0}
+  clip: {fileID: 8300000, guid: 79b8f8bd90d96dd41b7dc3c8ab3df10a, type: 3}
 --- !u!54 &-787276805420077301
 Rigidbody:
   m_ObjectHideFlags: 0

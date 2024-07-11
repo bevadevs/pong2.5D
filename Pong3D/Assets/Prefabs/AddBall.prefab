@@ -120,6 +120,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 3653117162544334176, guid: 4ae6c447885a9644baa017c4bbc78758, type: 3}
+  sfxComponent: {fileID: 0}
+  clip: {fileID: 8300000, guid: 79b8f8bd90d96dd41b7dc3c8ab3df10a, type: 3}
 --- !u!54 &-2614813433385074361
 Rigidbody:
   m_ObjectHideFlags: 0

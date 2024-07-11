@@ -4,10 +4,15 @@ using UnityEngine;
 public class speedChange : MonoBehaviour
 {
     GameObject[] balls;
+    [SerializeField] SFXComponent sfxComponent;
+    [SerializeField] AudioClip clip;
 
     private void Awake()
     {
         balls = IAPlayer02.balls;
+
+        // Quizás deba cambiarlo por que sea específicamente el componente del Spawner
+        sfxComponent = FindObjectOfType<SFXComponent>();
     }
 
     private void OnTriggerEnter(Collider collider)
@@ -16,6 +21,10 @@ public class speedChange : MonoBehaviour
         GameObject ballCollisioned = collider.gameObject;
         BallMovement bmc = ballCollisioned.GetComponent<BallMovement>();
         ChangeBallsSpeed(bmc);
+
+        // Llamamos a la función para reproducir el sonido de recogida de power up
+        sfxComponent.PlaySoundEffect(clip);
+
         Destroy(gameObject);
     }
 

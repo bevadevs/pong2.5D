@@ -364,9 +364,9 @@
 "Assets/Scripts/Player01Movement.cs"
 "Assets/Scripts/Player02Movement.cs"
 "Assets/Scripts/ScoreManager.cs"
+"Assets/Scripts/SFXComponent.cs"
 "Assets/Scripts/SizeDown.cs"
 "Assets/Scripts/SizeUp.cs"
-"Assets/Scripts/SoundsManager.cs"
 "Assets/Scripts/SpawnPowerUps.cs"
 "Assets/Scripts/SpeedChange.cs"
 -langversion:9.0

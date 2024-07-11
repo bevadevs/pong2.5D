@@ -121,6 +121,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player01: {fileID: 0}
   Player02: {fileID: 0}
+  sfxComponent: {fileID: 0}
+  clip: {fileID: 8300000, guid: 79b8f8bd90d96dd41b7dc3c8ab3df10a, type: 3}
 --- !u!54 &-804230230595004554
 Rigidbody:
   m_ObjectHideFlags: 0

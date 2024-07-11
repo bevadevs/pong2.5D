@@ -6,8 +6,8 @@ using TMPro;
 public class ScoreManager : MonoBehaviour
 {
     [SerializeField] GameOverScreen gameOverScreen;
-    [SerializeField] SoundsManager soundsManager;
-    [SerializeField] AudioClip audioClip;
+    [SerializeField] SFXComponent sfxComponent;
+    [SerializeField] AudioClip victoryClip;
     [SerializeField] AudioClip menuMusic;
     [SerializeField] TMP_Text scoreBoardP01;
     [SerializeField] TMP_Text scoreBoardP02;
@@ -29,7 +29,7 @@ public class ScoreManager : MonoBehaviour
             UpdateScore(scoreBoardP02, scoreP02);
             if (scoreP02 == maxScore)
             {
-                soundsManager.PlaySFXAndChangeBGMusic(audioClip, menuMusic);
+                sfxComponent.PlaySFXAndChangeBGMusic(victoryClip, menuMusic);
                 gameOverScreen.GameOver("Red Player");
             }
         }
@@ -39,7 +39,7 @@ public class ScoreManager : MonoBehaviour
             UpdateScore(scoreBoardP01, scoreP01);
             if (scoreP01 == maxScore)
             {
-                soundsManager.PlaySFXAndChangeBGMusic(audioClip, menuMusic);
+                sfxComponent.PlaySFXAndChangeBGMusic(victoryClip, menuMusic);
                 gameOverScreen.GameOver("Blue Player");
             }
         }

@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|c:\\users\\barbara\\documents\\github\\pong2.5d\\pong3d\\assets\\scripts\\ballmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ballmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|c:\\users\\barbara\\documents\\github\\pong2.5d\\pong3d\\assets\\scripts\\menubuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menubuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|c:\\users\\barbara\\documents\\github\\pong2.5d\\pong3d\\assets\\scripts\\soundsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\assets\\scripts\\addball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\addball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\assets\\scripts\\speedchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\speedchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\assets\\scripts\\sfxcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sfxcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\assets\\scripts\\sizedown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sizedown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\assets\\scripts\\sizeup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3363CB04-67E1-E2C3-5132-176DEED0D4BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sizeup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,34 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BallMovement.cs",
-              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\BallMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BallMovement.cs",
-              "ToolTip": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\BallMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BallMovement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAAAJAAAA",
+              "DocumentIndex": 1,
+              "Title": "AddBall.cs",
+              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\AddBall.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AddBall.cs",
+              "ToolTip": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\AddBall.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AddBall.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T08:02:39.089Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-07-11T16:02:45.822Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SizeUp.cs",
+              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\SizeUp.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SizeUp.cs",
+              "ToolTip": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\SizeUp.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SizeUp.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T16:18:50.417Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SizeDown.cs",
+              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\SizeDown.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SizeDown.cs",
+              "ToolTip": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\SizeDown.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SizeDown.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T16:18:49.541Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SpeedChange.cs",
+              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\SpeedChange.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpeedChange.cs",
+              "ToolTip": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\SpeedChange.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpeedChange.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T16:21:16.645Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuButtons.cs",
+              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\MenuButtons.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuButtons.cs",
+              "ToolTip": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\MenuButtons.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuButtons.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:38:36.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SoundsManager.cs",
-              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\SoundsManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundsManager.cs",
-              "ToolTip": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\SoundsManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SoundsManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "SFXComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\SFXComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SFXComponent.cs",
+              "ToolTip": "C:\\Users\\Barbara\\Documents\\GitHub\\Pong2.5D\\Pong3D\\Assets\\Scripts\\SFXComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SFXComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T13:21:23.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T16:55:30.444Z"
             }
           ]
         }
