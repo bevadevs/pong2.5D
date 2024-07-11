@@ -13,10 +13,12 @@ public class sizeUp : MonoBehaviour
         Player02 = GameObject.FindGameObjectWithTag("Player02");
     }
 
-    private void OnTriggerEnter()
+    private void OnTriggerEnter(Collider collider)
     {
-        // Accedemos a cuál es el último jugador que ha tocado la bola
-        string lastCollisionTag = BallMovement.lastCollision;
+        // Vemos con qué pelota ha colisionado y recuperamos su componente BallMovement para acceder a su última colisión con un jugador
+        GameObject ballCollisioned = collider.gameObject;
+        BallMovement bmc = ballCollisioned.GetComponent<BallMovement>();
+        string lastCollisionTag = bmc.lastCollision;
 
         if (lastCollisionTag == "Player01")
         {

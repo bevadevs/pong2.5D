@@ -20,12 +20,15 @@ public class IAPlayer02 : MonoBehaviour
 
     void Move()
     {
-        foreach (GameObject ball in balls)
+        // Si hay más de una pelota, comprobamos cuál está más cerca para seguir su movimiento
+        if (balls.Length > 1)
         {
-            // Comprobamos qué bola está más cerca para seguir su movimiento
-            if (Vector3.Distance(ball.transform.position, transform.position) < Vector3.Distance(balls[0].transform.position, transform.position))
+            foreach (GameObject ball in balls)
             {
-                balls[0] = ball;
+                if (Vector3.Distance(ball.transform.position, transform.position) < Vector3.Distance(balls[0].transform.position, transform.position))
+                {
+                    balls[0] = ball;
+                }
             }
         }
 

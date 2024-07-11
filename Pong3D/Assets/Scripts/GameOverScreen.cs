@@ -15,8 +15,8 @@ public class GameOverScreen : MonoBehaviour
         winnerText.text = winner + " got " + maxScore + " points";
         foreach (GameObject ball in IAPlayer02.balls)
         {
-            //ball.gameObject.SetActive(false);
-            Destroy(ball);
+            // Volvemos estática la pelota para que no pueda sacarse más
+            ball.GetComponent<Rigidbody>().isKinematic = true;
         }
     }
 }

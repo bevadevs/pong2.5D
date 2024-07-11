@@ -5,7 +5,7 @@ public class BallMovement : MonoBehaviour
 {
     [SerializeField] ScoreManager scoreManager;
     [SerializeField] Rigidbody rb;
-    public static string lastCollision;
+    public string lastCollision;
     float initialSpeed = 3f;
     [SerializeField] float speed;
     [SerializeField] int impactsCounter;
@@ -58,7 +58,6 @@ public class BallMovement : MonoBehaviour
         }
 
         // Metemos la nueva pelota en el array de pelotas de las que tiene que estar pendiende la IA
-        // NO ESTÁ FUNCIONANDO
         IAPlayer02.balls = GameObject.FindGameObjectsWithTag("Ball");
 
         yield return direction;
@@ -66,16 +65,14 @@ public class BallMovement : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        // Guardamos con qué jugador ha sido la última colisión
-        lastCollision = collision.gameObject.tag;
-
         // Calculamos la dirección de rebote cuando colisiona con otro objeto
         Vector3 collisionNormal = collision.GetContact(0).normal;
         direction = Vector3.Reflect(direction, collisionNormal);
 
-        // Cada 4 toques que se le den a la pelota, aumentamos su velocidad
+        // Guardamos con qué jugador ha sido la última colisión. Cada 4 toques que se le den a la pelota, aumentamos su velocidad
         if ((collision.collider.tag == "Player01") || (collision.collider.tag == "Player02"))
         {
+            lastCollision = collision.gameObject.tag;
             impactsCounter++;
         }
         if (impactsCounter == 4)

@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using UnityEngine;
 
 public class speedChange : MonoBehaviour
@@ -9,17 +10,20 @@ public class speedChange : MonoBehaviour
         balls = IAPlayer02.balls;
     }
 
-    private void OnTriggerEnter(Collider c)
+    private void OnTriggerEnter(Collider collider)
     {
-        ChangeBallsSpeed();
+        // Vemos con qué pelota ha colisionado y recuperamos su componente BallMovement para pasárselo a la función
+        GameObject ballCollisioned = collider.gameObject;
+        BallMovement bmc = ballCollisioned.GetComponent<BallMovement>();
+        ChangeBallsSpeed(bmc);
         Destroy(gameObject);
     }
 
-    // La bola es está quedando detenida tras la colisión
-    private void ChangeBallsSpeed()
+    private void ChangeBallsSpeed(BallMovement bm)
     {
         // Accedemos a cuál es el último jugador que ha tocado la bola
-        string lastCollisionTag = BallMovement.lastCollision;
+        string lastCollisionTag = bm.lastCollision;
+
         foreach (GameObject ball in balls)
         {
             Rigidbody ballRigidbody = ball.GetComponent<Rigidbody>();
